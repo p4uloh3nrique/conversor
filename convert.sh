@@ -1,14 +1,15 @@
-#!/bin/bash
+#!/bin/sh
 
-cd trabalhon1
+cd /home/aluno/trabalhon1/imagens-livros
+for imagem in *.jpg
+do
+	echo $imagem
 
-unzip -q imagens-livros.zip
+	img_sem_ext=$(ls $imagem | awk -F. '{print $1}')
 
-cd imagens-livros
+	echo img_sem_ext
 
-convert *.jpg teste.png
+	convert $imagem $img_sem_ext.png
+done
 
-mkdir convertidas
-
-mv teste*.png convertidas
-zip -r convertidas.zip convertidas
+cd ..
