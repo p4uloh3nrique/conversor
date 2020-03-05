@@ -5,7 +5,11 @@
 # Autor: Paulo Henrique
 #
 
+echo "Entrando do diretório de imagens"
+
 cd /home/aluno/trabalhon1/imagens-livros
+
+
 for imagem in *.jpg
 do
 	echo $imagem
@@ -15,6 +19,10 @@ do
 	echo img_sem_ext
 
 	convert $imagem $img_sem_ext.png
+
+	echo "Imagem convertida com sucesso!"
 done
+
+	echo "Finalizado! Até a próxima conversão!"
 
 cd ..
