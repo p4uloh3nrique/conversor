@@ -5,7 +5,7 @@
 # Autor: Paulo Henrique
 #
 
-echo "Entrando do diretório de imagens a serem convertidas"
+echo "Entrando do diretório de imagens a serem convertidas pelo script"
 
 
 cd /home/aluno/trabalhon1/imagens-livros
