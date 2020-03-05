@@ -5,7 +5,8 @@
 # Autor: Paulo Henrique
 #
 
-echo "Entrando do diretório de imagens"
+echo "Entrando do diretório de imagens a serem convertidas"
+
 
 cd /home/aluno/trabalhon1/imagens-livros
 
