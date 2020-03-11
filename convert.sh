@@ -5,12 +5,14 @@
 # Autor: Paulo Henrique
 #
 
+#Iniciando Conversão
+
 echo "Entrando do diretório de imagens a serem convertidas pelo script.!"
 
 
 cd /home/aluno/trabalhon1/imagens-livros
 
-
+#Pegando as imagens pra converter
 for imagem in *.jpg
 do
 	echo $imagem
